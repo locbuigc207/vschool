@@ -1,0 +1,53 @@
+pluginManagement {
+    def flutterSdkPath = {
+        def properties = new Properties()
+        file("local.properties").withInputStream { properties.load(it) }
+        def flutterSdkPath = properties.getProperty("flutter.sdk")
+        assert flutterSdkPath != null, "flutter.sdk not set in local.properties"
+        return flutterSdkPath
+    }()
+
+    includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
+
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id "dev.flutter.flutter-plugin-loader" version "1.0.0"
+    id "com.android.application" version "8.2.1" apply false
+    id "org.jetbrains.kotlin.android" version "1.9.10" apply false
+    id "com.google.gms.google-services" version "4.4.1" apply false
+}
+
+include ":app"
+
+// Fix for gallery_saver namespace issue with AGP 8.x
+gradle.beforeProject { project ->
+    if (project.hasProperty('android') && project.android.hasProperty('namespace')) {
+        if (!project.android.namespace) {
+            project.android.namespace = project.group ?: "com.example.${project.name}"
+        }
+    }
+    
+    // Fix Kotlin compilation issues for Flutter plugins
+    if (project.hasProperty('android')) {
+        project.android.compileOptions {
+            sourceCompatibility JavaVersion.VERSION_17
+            targetCompatibility JavaVersion.VERSION_17
+        }
+        
+        project.tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+            kotlinOptions {
+                jvmTarget = '17'
+                freeCompilerArgs += [
+                    '-Xjvm-default=all',
+                    '-Xopt-in=kotlin.RequiresOptIn'
+                ]
+            }
+        }
+    }
+}

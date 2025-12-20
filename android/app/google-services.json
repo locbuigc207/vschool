@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "856980792810",
+    "project_id": "v-school-3e40f",
+    "storage_bucket": "v-school-3e40f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856980792810:android:98e966ef80ed50e46dfe93",
+        "android_client_info": {
+          "package_name": "com.vintech.vschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsvhHwWP4XmdqHKrebyWrmjrlu7TYSUno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

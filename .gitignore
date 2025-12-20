@@ -1,0 +1,83 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+*.lock
+*.g.dart
+*.gr.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# FVM Version Cache
+.fvm/
+ios/build/ios/XCBuildData/PIFCache/project/PROJECT@v11_mod=faf2439424021478bf6e23eb180ae917_hash=bfdfe7dc352907fc980b868725387e98plugins=1OJSG6M1FOV3XYQCBH7Z29RZ0FPR9XDE1-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=06fdf9a07bb885cbaf0cedd30ef846a9-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=0e8002af776c84d278596bf35aaa4977-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=157d2447153b391cbb5912484110a55e-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=1990bc6561b94a9d99b93f3ce195c8a9-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=2b4ca09245b9d80262c9cc7af220a3eb-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=2ffba35d3d78ef610065bf60f77d5971-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=3854f92fdf5d596eb7d37d6c58e49d14-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=4008fda0e9577a93e1749cea3cba300b-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=429240d8511b0e474e1a80ee8e7b3b78-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=4ea12df4d9dd0cadd7977e546946f4c0-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=59748285bd7421cedbaddbb08e92d441-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=665f1100390113b891046e9626c44283-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=698116510fefe66b5e49e825f70bb9d9-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=8c31a842dcb6148860ce499255ec9348-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=9a09907ae346334ccd659ea7c966d5fb-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=9bb1319b3bc238fd1cdb072b3749e290-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=a46d56be08ad00e3b439942515d71514-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=aaa34058c08b859c9b1f82c8665f03be-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=b0cd2053f056d6591754fcba7710d3b2-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=b294e7bdcff757d86e5d9b21e7dfde24-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=c6b11865990b386fa95db6824b58458e-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=c7829a761bbf29522dcd7f602a8eb713-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=c92b0b67400b43062cfcd5c20ec33cbd-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=d33742af6b5d0a823783fce594b4df70-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=d7827caea2b009e01069e110fa29d9ad-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=d889782116c014f9abcf9d72e0487b75-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=f030b279af297e08bfa8174674bbc63a-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=f4ebc4a7cc80bd572b4e0082c25a54f4-json
+ios/build/ios/XCBuildData/PIFCache/target/TARGET@v11_hash=fa4e6354521c4b4b6acb95fc72291dd5-json
+ios/build/ios/XCBuildData/PIFCache/workspace/WORKSPACE@v11_hash=(null)_subobjects=be525531bb5b51231c8c70b7c3bf17c7-json

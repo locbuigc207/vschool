@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+    <color name="background_color">#E5E5E5</color>
+    <color name="background_avatar">#F3F6F8</color>
+    <color name="primary_gradient_end">#EA1E5B</color>
+    <color name="primary_gradient_start">#F5932F</color>
+    <color name="primary_color">#BA3931</color>
+    <color name="border_color">#828282</color>
+    <color name="success">#00884F</color>
+    <color name="error">#EE0033</color>
+    <color name="waiting">#EA6200</color>
+    <color name="text_color">#232730</color>
+    <color name="text_gray">#141923</color>
+    <color name="text_gray_1">#333333</color>
+    <color name="text_gray_2">#4F4F4F</color>
+    <color name="text_gray_3">#676767</color>
+    <color name="text_gray_4">#D1D1D1</color>
+    <color name="text_gray_5">#B6B6B6</color>
+    <color name="text_gray_6">#E0E0E0</color>
+    <color name="text_gray_7">#F2F2F2</color>
+    <color name="text_main_color">#B10C19</color>
+    <color name="home_secondary_button_gradient_start">#FFE0E0</color>
+    <color name="home_secondary_button_gradient_end">#FFF0E1</color>
+    <color name="indicator_color">#EB1220</color>
+    <color name="border_color">#73777A</color>
+    <color name="disabled_border_color">#BDBDBD</color>
+    <color name="logo_gray">#606060</color>
+    <color name="blue">#0593CF</color>
+    <color name="card_border_color">#B5B5B5</color>
+    <color name="foam">#4CC781</color>
+    <color name="scotchMist">#2B6A46</color>
+    <color name="link_blue">#2E64DD</color>
+    <color name="background_card_under-start">#FFEA93</color>
+    <color name="background_card_under-end">#B9A44E</color>
+    <color name="background_card_middle-start">#FFD29B</color>
+    <color name="background_card_middle-end">#CB7D57</color>
+    <color name="background_card_top_start">#BA3931</color>
+    <color name="background_card_top_end">#462225</color>
+    <color name="color_button">#CF323D</color>
+    <color name="background_bottom_sheet">#FFE8C5</color>
+    <color name="boldBlue">#0956C6</color>
+    <color name="dividerColor">#E6E6E6</color>
+</resource>
