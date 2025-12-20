@@ -16,6 +16,8 @@ class ReportCardModel {
 
   factory ReportCardModel.fromJson(Map<String, dynamic> json) =>
       _$ReportCardModelFromJson(json);
+
+  Map<String, dynamic> toJson() => _$ReportCardModelToJson(this);
 }
 
 @JsonSerializable()
@@ -30,4 +32,6 @@ class ReportCardResponse {
 
   factory ReportCardResponse.fromJson(Map<String, dynamic> json) =>
       _$ReportCardResponseFromJson(json);
+
+  Map<String, dynamic> toJson() => _$ReportCardResponseToJson(this);
 }
