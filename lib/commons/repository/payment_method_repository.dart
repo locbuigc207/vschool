@@ -3,9 +3,9 @@ import 'package:simple_result/simple_result.dart';
 import 'package:vschool/commons/api/clients/api_client.dart';
 import 'package:vschool/commons/api/failures/failures.dart';
 import 'package:vschool/commons/api/interceptors/error_interceptor.dart';
+import 'package:vschool/commons/models/payment_channel/payment_channel_model.dart';
 import 'package:vschool/commons/models/payment_setting/payment_setting_model.dart';
 import 'package:vschool/commons/models/qrCode/qr_code_model.dart';
-import 'package:vschool/commons/models/payment_channel/payment_channel_model.dart';
 
 abstract class IPaymentMethodRepository {
   Future<Result<PaymentSettingModel, Failure>> getPaymentSetting({
@@ -61,7 +61,7 @@ class PaymentMethodRepository extends IPaymentMethodRepository {
       final response = await _client.genQRCode(
         token: "Bearer ${preferences.getString('accessToken')!}",
         studentId: request.studentId ?? 0,
-        listvoiceIds: request.listInvoiceIds ?? [],
+        listInvoiceIds: request.listInvoiceIds ?? [],
       );
       if (response.code == 200) {
         return Result.success(response);

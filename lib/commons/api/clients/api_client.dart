@@ -68,7 +68,7 @@ abstract class ApiClient {
   Future<QrCodeResponse> genQRCode({
     @Header('Authorization') required String token,
     @Query('studentId') required int studentId,
-    @Query('listInvoiceIds') required List listvoiceIds,
+    @Query('listInvoiceIds') required List<int> listInvoiceIds,
   });
 
   @GET(endpoint.getSchoolInfo)
